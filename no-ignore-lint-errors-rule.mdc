@@ -1,0 +1,67 @@
+---
+alwaysApply: true
+---
+
+# No Ignore Lint Errors Rule
+
+# CRITICAL RULE: NO LINTING ERRORS SHALL BE IGNORED
+
+
+## 🚨 ZERO TOLERANCE POLICY
+
+
+**EVERY SINGLE LINTING ERROR MUST BE FIXED IMMEDIATELY**
+
+
+### ❌ **NEVER ALLOW:**
+- Any ESLint errors (not warnings - ERRORS)
+- Any TypeScript compilation errors
+- Any build failures
+- Any module resolution errors
+- Any import/export errors
+- Any type safety violations
+
+
+### ✅ **MANDATORY ACTIONS:**
+1. **FIX EVERY ERROR** - No exceptions
+2. **VERIFY FIXES** - Run lint/build after each fix
+3. **NO SHORTCUTS** - Proper solutions only
+4. **IMMEDIATE ATTENTION** - Fix errors before moving on
+
+
+### 🔥 **ERROR SEVERITY LEVELS:**
+- **CRITICAL**: Build failures, module not found, TypeScript errors
+- **HIGH**: ESLint errors, import/export issues
+- **MEDIUM**: Type safety violations, unused variables
+- **LOW**: Warnings (still should be addressed)
+
+
+### 📋 **MANDATORY CHECKLIST:**
+- [ ] All ESLint errors fixed
+- [ ] All TypeScript errors resolved
+- [ ] Build passes successfully
+- [ ] All imports resolved
+- [ ] No unused variables
+- [ ] Proper type safety maintained
+
+
+### 🚫 **ABSOLUTELY FORBIDDEN:**
+- Ignoring any linting errors
+- Using `any` types without justification
+- Leaving build errors unfixed
+- Skipping error resolution
+- Claiming errors are "not important"
+
+
+### ⚡ **IMMEDIATE RESPONSE REQUIRED:**
+When ANY error is detected:
+1. **STOP** all other work
+2. **FIX** the error immediately
+3. **VERIFY** the fix works
+4. **CONTINUE** only after all errors are resolved
+
+
+---
+
+
+**This rule is NON-NEGOTIABLE and applies to ALL files in the project.**
