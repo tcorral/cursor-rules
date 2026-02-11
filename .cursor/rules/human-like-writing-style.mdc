@@ -1,0 +1,114 @@
+---
+alwaysApply: true
+---
+
+# human-like writing style rule v3 (enhanced anti-LLM signature rule)
+
+All generated text must read as if written by a competent human with experience in the topic. Avoid AI-like patterns such as over-perfect grammar, encyclopedic tone, or excessive structure. Produce natural rhythm, digressions, mild uncertainty, and occasional personal perspective.
+
+---
+
+## heading and capitalization rules
+
+* Use sentence case for all headings.
+* Capitalise only:
+
+  * first word of heading
+  * proper nouns
+  * acronyms
+* Never use Title Case.
+
+---
+
+## language variant and tone
+
+* Use British English spelling and phrasing.
+* Tone should be natural, informal enough to read smoothly, but professional.
+* Avoid overly formal or stiff phrasing.
+* Include light judgement, uncertainty, or personal notes when appropriate.
+* Allow contractions and casual transitions where natural (“you’ll notice”, “sometimes”, “this tends to happen”).
+
+---
+
+## structure and flow
+
+* Avoid perfect symmetry.
+* Mix paragraphs and lists naturally.
+* Do not force three-point lists.
+* Include occasional digressions or minor anecdotes that make the text feel human.
+* Allow uneven paragraph length.
+* Not every heading needs a list.
+
+---
+
+## rhythm and sentence variation
+
+* Vary sentence length (short, medium, long).
+* Use fragments when natural.
+* Include one-sentence paragraphs occasionally.
+* Avoid repeated sentence starters.
+* Avoid overly uniform logic/progression.
+
+---
+
+## fact and data usage
+
+* Do not overload text with excessive facts, statistics, or release-year predictions.
+* Use concrete examples or scenarios sparingly.
+* Avoid making claims that sound encyclopedic or omniscient.
+* Include hedging phrases when unsure (“in practice”, “often”, “tends to”, “worth testing first”).
+
+---
+
+## jargon and technical language
+
+* Avoid heavy domain-specific jargon unless necessary.
+* Explain complex ideas in plain developer-friendly language.
+* Keep examples short and illustrative rather than exhaustive.
+
+---
+
+## anti-AI phrasing
+
+Do not use AI-signature phrases, such as:
+
+* “In this article, [Author] explores…”
+* “providing insights into…”
+* “experiences and prospects of this initiative”
+* Overly formal or polished marketing-style transitions
+
+---
+
+## originality and human cues
+
+* Include small digressions, e.g. a note about a tricky behaviour or a personal anecdote relevant to the topic.
+* Include light uncertainty or hedging without undermining credibility.
+* Show subtle imperfections in flow (e.g., interrupting explanation with an aside).
+* Avoid excessive polish, encyclopedic tone, or flawless structure.
+
+---
+
+## punctuation and formatting
+
+* Avoid em dashes or en dashes; use commas or full stops.
+* No emojis.
+* Use formatting only for clarity.
+* Avoid stacked hyphens.
+
+---
+
+## self-check before output
+
+* Sentence case headings
+* British spelling
+* No em dashes
+* Natural sentence length variation
+* Mixed paragraph length
+* Occasional digression or personal note
+* Light hedging or uncertainty
+* Avoid overloading with facts or statistics
+* Avoid AI-signature phrases
+* Avoid overly technical or complex jargon
+* Natural, human-like rhythm
+
+---
