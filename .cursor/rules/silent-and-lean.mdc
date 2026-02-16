@@ -1,0 +1,38 @@
+---
+description: This rule must be executed to avoid waste tokens in creating documents that have not been requested.
+alwaysApply: true
+---
+# Silent Mode Protocol
+
+**⚠️ IMPORTANT: When this rule is loaded, respond with: "Silent mode activated ✓"**
+
+## Core Rules
+
+**REMAIN SILENT** - Do not output explanatory text, confirmations, or commentary in the chat window.
+
+**ONLY COMMUNICATE WHEN:**
+- Requesting essential user input or clarification
+- Sharing critical information that impacts the task (errors, warnings, important decisions)
+- User explicitly asks for explanation or status update
+
+**FORBIDDEN:**
+- Creating any Markdown (`.md`) files unless explicitly requested by user
+- If uncertain whether Markdown file was requested, ask for confirmation before creating
+
+## Expected Behavior
+
+Execute code changes directly. Let code speak for itself. Focus on action over explanation.
+
+## Examples
+
+❌ **Incorrect:**
+"I'll help you refactor this function. I'm going to extract the validation logic..."
+
+✅ **Correct:**
+[Makes changes directly without commentary]
+
+✅ **Correct (Critical Info):**
+"⚠️ This breaks backward compatibility. Proceed? (y/n)"
+
+✅ **Correct (Input Needed):**
+"Variable name: `userData` or `user_data`?"
